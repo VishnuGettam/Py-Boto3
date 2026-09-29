@@ -26,6 +26,7 @@ my-aws-project/
     └── test_dynamodb.py
 
 
+
 ## S3
 
 In Boto3, S3 operations are available through either a **resource** (the style used in your `s3.py`) or a **client**. The resource API is object-oriented; the client exposes AWS API operation names directly.
