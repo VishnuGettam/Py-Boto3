@@ -9,13 +9,11 @@ my-aws-project/
 │   └── sandbox_aws_project/
 │       ├── __init__.py
 │       ├── main.py             # Orchestrates operations sequentially
-│       │
 │       ├── aws/                # Dedicated package for AWS SDK / Boto3 modules
 │       │   ├── __init__.py
 │       │   ├── s3.py           # S3 client wrapper, wrappers for bucket/object operations
 │       │   ├── dynamodb.py     # DynamoDB interaction layer
 │       │   └── sqs.py          # SQS queue operations
-│       │
 │       └── utils/              # Shared helper functions (logging, formatting, config)
 │           ├── __init__.py
 │           ├── logger.py
