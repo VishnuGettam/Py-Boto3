@@ -1,3 +1,4 @@
+```text
 my-aws-project/
 ├── .venv/                      # Managed automatically by uv (git-ignored)
 ├── .python-version             # Specifies the Python version for the environment
@@ -22,6 +23,7 @@ my-aws-project/
     ├── __init__.py
     ├── test_s3.py
     └── test_dynamodb.py
+```
 
 
 
